@@ -1,0 +1,141 @@
+{
+  "mode": "edit",
+  "componentId": "430916631833763840",
+  "projectId": "430914404607987712",
+  "selectedRevisionId": "431007892708139008",
+  "baseRevisionId": "431007892708139008",
+  "jobId": "427667464441180160-external-agent-431007892708139009",
+  "generatedName": "pure-flood-4176",
+  "name": "CBMS Application Shell",
+  "selectedImages": [],
+  "editableFiles": [
+    {
+      "path": "src/App.tsx",
+      "sha256": "57f2b447cf8ebe69868df451d600cd0064c1d15c03a760ccb183ee26b8e4a755"
+    },
+    {
+      "path": "src/components/generated/CBMSApplicationShell.tsx",
+      "sha256": "e13798a754c5e2e4a7478dd18b75744862fc8c0abb4649c3e9976c838b594546"
+    },
+    {
+      "path": "src/components/generated/Checklists.tsx",
+      "sha256": "62683b30aecdaaa94a82908190659080aba7d749a13391757ca48a3a844accea"
+    },
+    {
+      "path": "src/components/generated/CompanyNameChange.tsx",
+      "sha256": "459e94faaa89a318642ecf5d76dd0ba291aa4c7ffe852b1f32e57c4f770ea432"
+    },
+    {
+      "path": "src/components/generated/DashboardHome.tsx",
+      "sha256": "159181413c1ce5100420c639963648e0c0127aed0547ad30545738720788954d"
+    },
+    {
+      "path": "src/components/generated/DiscussionForum.tsx",
+      "sha256": "582c3b5f22103b2cf07a1a330c18bed47b985d0906ae35add4870b1a17ec1704"
+    },
+    {
+      "path": "src/components/generated/EBondRegister.tsx",
+      "sha256": "1721acc7f722e73add88a77957ba478b7528de4866e295fb3afd9cd51489df0d"
+    },
+    {
+      "path": "src/components/generated/ELicenseeProfileCreation.tsx",
+      "sha256": "a578e7abefd92b613b076aa6d451e3f49301c43c9e3a06f21e2253a0bbc2b207"
+    },
+    {
+      "path": "src/components/generated/ENothiManagement.tsx",
+      "sha256": "8d5834429dd633fc6523c438392fed8679d567bf52791c02199a12f2a1dfc860"
+    },
+    {
+      "path": "src/components/generated/EPassbook.tsx",
+      "sha256": "590f921cd85234363c05bf9276985fdf7246df4ea16407af534c4b50766f29a6"
+    },
+    {
+      "path": "src/components/generated/EServiceList.tsx",
+      "sha256": "9d5b428a8820b7d54b6525b3d24a4079e11ecabcaa1a014730378f0db8ca996a"
+    },
+    {
+      "path": "src/components/generated/ExBondEntry.tsx",
+      "sha256": "0c2d2855e58144b4090935b8ab62d02c1c8d45b29fa02a4b6c0164333a5f2b32"
+    },
+    {
+      "path": "src/components/generated/GeneralBondManagement.tsx",
+      "sha256": "a126e94902b34f4317ee8f41dba368fb02def46cba087f417f975348d2ae5ea1"
+    },
+    {
+      "path": "src/components/generated/Header.tsx",
+      "sha256": "b56957f77ee15dd77b951c8e9a5e296616d315a1f182ddcfb9fa2b9d0f5f261e"
+    },
+    {
+      "path": "src/components/generated/HsCodeManagement.tsx",
+      "sha256": "21cdb75c83850c50c8d34bd7b3fddf359027e40ba05387ad818466df60cbb41c"
+    },
+    {
+      "path": "src/components/generated/KnowledgeBase.tsx",
+      "sha256": "79e9d3ed34d8d2d534dd606032da8543aca26d2895cc82e6d52c236f1c9ba38a"
+    },
+    {
+      "path": "src/components/generated/LicenseDatabase.tsx",
+      "sha256": "3c21ddddb88553a917a6536139a9e5cfd2008a2ae39ffcd9ffada192e260faef"
+    },
+    {
+      "path": "src/components/generated/LicenseOwnershipChange.tsx",
+      "sha256": "f03396018ac908273093fd09e262766911bfc4d7a5ff9bd66469c802afc8d659"
+    },
+    {
+      "path": "src/components/generated/LicenseSearch.tsx",
+      "sha256": "8fe82a1eec5720aac70f06eeb0da9fde715895b4d629d7023ffaf7e3670700f5"
+    },
+    {
+      "path": "src/components/generated/LocalPurchaseSales.tsx",
+      "sha256": "32f27c29ad418810f268434c53c33f732669b2b34832f2c22846a80b5a6e4ebc"
+    },
+    {
+      "path": "src/components/generated/MachineryDatabase.tsx",
+      "sha256": "1c0ab1b019e7ed6dd2cf2545295933a4595908bc49a6131e4d4471e7bae7d9ca"
+    },
+    {
+      "path": "src/components/generated/MachineryTransactions.tsx",
+      "sha256": "46f5bac3febb5dbe7f3cd1a69b8580f04c22d246a5c375af43b6ca93f8a50111"
+    },
+    {
+      "path": "src/components/generated/NewBondLicense.tsx",
+      "sha256": "616071775b61897c5f5a39137b641a8122c665078e58a39fd9757565abb1e6e5"
+    },
+    {
+      "path": "src/components/generated/Notices.tsx",
+      "sha256": "aaf43afbd40b3dd1750456cd84c61625c12446fd575f12d3babf3608e939d5aa"
+    },
+    {
+      "path": "src/components/generated/OnlineApplicationForm.tsx",
+      "sha256": "0c0e1d10022bb9763b5f720f08cab35f436154cd660e06ed37d8016dcc3b843d"
+    },
+    {
+      "path": "src/components/generated/PortalContents.tsx",
+      "sha256": "53aaa35ab50a43e8254086b0d3afa423f92a8e31166ff4f7bfdc89039e8de7da"
+    },
+    {
+      "path": "src/components/generated/RulesPolicies.tsx",
+      "sha256": "26b1f3370c1049c2eacc82b1ffa99d507a4d5b26e96fb69a516008bda699189d"
+    },
+    {
+      "path": "src/components/generated/Sidebar.tsx",
+      "sha256": "b60b72244ea2781240904493ef54d4f0f113aa88fe8f76d5140c1575aad920f2"
+    },
+    {
+      "path": "src/components/generated/SubmissionGuidelines.tsx",
+      "sha256": "c9583b3a5e17c1f0d0d53f436bd254853499fe40d3dd0763a953adb9fa341ad9"
+    },
+    {
+      "path": "src/components/generated/bondLicenseData.ts",
+      "sha256": "003c97553acbc76ac5e632983cb45c9019e84c91037dd21e70b6ea239cabbba3"
+    },
+    {
+      "path": "src/components/generated/navigationData.ts",
+      "sha256": "284958e5909e4501f81a2a56124f59581de8cc2262f5207c1720545aa518a37a"
+    },
+    {
+      "path": "src/index.css",
+      "sha256": "a4fd01480f391fd4edaa297cd52bc4eee49567d09fa20d974ec986b99f1bab73"
+    }
+  ]
+}
