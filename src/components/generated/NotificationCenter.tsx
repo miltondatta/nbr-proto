@@ -157,18 +157,16 @@ function NotificationRow({
           <span>{n.timestamp}</span>
         </div>
       </div>
-      <div className="flex shrink-0 flex-row flex-wrap gap-2 sm:w-[150px] sm:flex-col">
+      <div className="flex shrink-0 flex-row items-center gap-1.5">
         {n.moduleId !== 'system' && onNavigate && <button type="button" onClick={() => onNavigate(n.moduleId)} className={ACTION_BTN_OUTLINE}>
             <Icon name="open_in_new" className="text-[13px]" />
             {t.goToModule}
           </button>}
-        <button type="button" onClick={() => onMarkRead(n.id, !n.read)} className={ACTION_BTN_OUTLINE}>
-          <Icon name={n.read ? 'mark_email_unread' : 'mark_email_read'} className="text-[13px]" />
-          {n.read ? t.markUnread : t.markRead}
+        <button type="button" title={n.read ? t.markUnread : t.markRead} onClick={() => onMarkRead(n.id, !n.read)} className="flex h-8 w-8 items-center justify-center rounded-full border border-[#CBD5E1] text-[#334155] hover:bg-[#F5F7FA]">
+          <Icon name={n.read ? 'mark_email_unread' : 'mark_email_read'} className="text-[15px]" />
         </button>
-        <button type="button" onClick={() => onDismiss(n.id)} className={ACTION_BTN_OUTLINE}>
-          <Icon name="close" className="text-[13px]" />
-          {t.dismiss}
+        <button type="button" title={t.dismiss} onClick={() => onDismiss(n.id)} className="flex h-8 w-8 items-center justify-center rounded-full border border-[#CBD5E1] text-[#334155] hover:bg-[#F5F7FA]">
+          <Icon name="close" className="text-[15px]" />
         </button>
       </div>
     </div>;
