@@ -524,7 +524,7 @@ const lienBanks = [
 const documentDefs = [
   { id: 'tradeLicense', icon: 'description', en: 'Trade License (copy)', bn: 'ট্রেড লাইসেন্স (কপি)', required: true },
   { id: 'binTinCert', icon: 'badge', en: 'BIN & TIN Certificates', bn: 'বিআইএন ও টিআইএন সার্টিফিকেট', required: true },
-  { id: 'factoryLayout', icon: 'floor_plan', en: 'Factory Layout Plan', bn: 'কারখানার লে-আউট পরিকল্পনা', required: true },
+  { id: 'factoryLayout', icon: 'domain', en: 'Factory Layout Plan', bn: 'কারখানার লে-আউট পরিকল্পনা', required: true },
   { id: 'landDoc', icon: 'home_work', en: 'Land Ownership / Rental Agreement', bn: 'জমির মালিকানা / ভাড়া চুক্তি', required: true },
   { id: 'machineryList', icon: 'precision_manufacturing', en: 'Machinery List / Import Invoice', bn: 'যন্ত্রপাতির তালিকা / আমদানি চালান', required: true },
   { id: 'bankSolvency', icon: 'account_balance', en: 'Bank Solvency Certificate', bn: 'ব্যাংক সলভেন্সি সার্টিফিকেট', required: true },
